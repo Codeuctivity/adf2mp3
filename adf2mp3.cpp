@@ -24,9 +24,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
-// Platform-specific includes:
-//#include <unistd.h>
-
 namespace adf2mp3
 {
 
@@ -50,6 +47,8 @@ const ubyte GtaMagic = 34;
 //
 const ulong ChunkSize = 8192;
 
+// ========================================================
+
 struct FileStats
 {
 	ulong fileLength;   // File length in bytes.
@@ -61,6 +60,7 @@ FileStats fileStatsForPath(const std::string & pathname)
 {
 	errno = 0; // Clear the errno global, just in case.
 	struct stat statBuf;
+
 	if (stat(pathname.c_str(), &statBuf) != 0)
 	{
 		throw std::runtime_error("Path '" + pathname + "': " + std::string(std::strerror(errno)));
@@ -96,7 +96,7 @@ void printHelpText(const char * programName)
 	std::cout << "Usage:\n";
 	std::cout << "$ " << programName << " <input_file> [output_file]\n";
 	std::cout << "  Runs the tool normally. If the output filename is not provided\n" <<
-	             "  the input filename is used but the extension is replaced with '.mp3'.\n";
+		"  the input filename is used but the extension is replaced with '.mp3'.\n";
 
 	std::cout << "\n";
 	std::cout << "Usage:\n";
