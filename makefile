@@ -5,12 +5,12 @@
 #
 
 COMPILER = c++
-CPPFLAGS = -Wall -Wextra -Weffc++ -std=c++11 -O3
+CXXFLAGS = -Wall -Wextra -Weffc++ -std=c++11 -O3
 FILES    = adf2mp3.cpp
 OUTPUT   = adf2mp3
 
 all:
-	$(COMPILER) $(CPPFLAGS) $(FILES) -o $(OUTPUT)
+	$(COMPILER) $(CXXFLAGS) $(FILES) -o $(OUTPUT)
 
 clean:
 	rm -f $(OUTPUT)
