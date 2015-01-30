@@ -21,6 +21,7 @@
 
 // Standard C / POSIX includes:
 #include <cerrno>
+#include <cstdlib>
 #include <sys/types.h>
 #include <sys/stat.h>
 
@@ -219,6 +220,6 @@ int main(int argc, const char * argv[])
 	catch (std::exception & e)
 	{
 		std::cerr << "ERROR: " << e.what() << std::endl;
-		return -1;
+		return EXIT_FAILURE;
 	}
 }
