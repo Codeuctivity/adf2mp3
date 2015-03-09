@@ -5,7 +5,7 @@
 ##About:
 
 [*Grand Theft Auto - Vice City*][1] radio stations and soundtracks are stored in a proprietary file format,
-with the `.adf` extension. This file format is a MP3 that had each byte XORed with
+with the `.adf` extension. This file format is a MP3 that had each byte *XORed* with
 the decimal constant `34`. The `adf2mp3` command line tool allows the decoding of Vice City
 ADF files to MP3 files that can be played outside the game.
 
@@ -30,6 +30,8 @@ To print basic help and tool info, run:
     +-adf2mp3/
      |
      +-bin/                      => Contains a prebuilt binary for Windows (tested on Windows 8).
+     |
+     +-ports/                    => Ported versions of the original C++ code. Currently, I've written a Rust version of the tool that works just as well.
      |
      +-adf2mp3.cpp               => The single source code file for the application.
      |
