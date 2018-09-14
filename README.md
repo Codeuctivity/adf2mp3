@@ -48,3 +48,25 @@ No warranty is offered or implied; use it at your own risk.
 
 [1]: http://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_Vice_City
 
+## Known Locations of radio station soundtracks
+
+### Grand Theft Auto - Vice City (Steam Version)
+
++-C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto Vice City\Audio
+ +-EMOTION.adf
+ |
+ +-ESPANT.adf
+ |
+ +-FEVER.adf
+ |
+ +-FLASH.adf
+ |
+ +-KCHAT.adf
+ |
+ +-VCPR.adf
+ |
+ +-VROCK.adf
+ |
+ +-WAVE.adf
+ |
+ +WILD.adf
