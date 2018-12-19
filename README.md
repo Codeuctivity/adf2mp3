@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/cbw5itqw2niv2pqs?svg=true)](https://ci.appveyor.com/project/stesee/mp4boxsharp)
+[![Build status](https://ci.appveyor.com/api/projects/status/fu2nv9d490twrpo4?svg=true)](https://ci.appveyor.com/project/stesee/adf2mp3)
 
 #ADF2MP3 - A command line tool for converting GTA Vice City ADF audio files to MP3
 
