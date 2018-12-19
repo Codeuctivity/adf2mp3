@@ -1,17 +1,17 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/fu2nv9d490twrpo4?svg=true)](https://ci.appveyor.com/project/stesee/adf2mp3)
 
-#ADF2MP3 - A command line tool for converting GTA Vice City ADF audio files to MP3
+# ADF2MP3 - A command line tool for converting GTA Vice City ADF audio files to MP3
 
 ----
 
-##About:
+## About:
 
 [*Grand Theft Auto - Vice City*][1] radio stations and soundtracks are stored in a proprietary file format,
 with the `.adf` extension. This file format is a MP3 that had each byte *XORed* with
 the decimal constant `34`. The `adf2mp3` command line tool allows the decoding of Vice City
 ADF files to MP3 files that can be played outside the game.
 
-##Usage:
+## Usage:
 
 This tool can be used from the command prompt as such:
 
@@ -27,7 +27,7 @@ To print basic help and tool info, run:
 
     $ ./adf2mp3 --help
 
-##Directory Structure:
+## Directory Structure:
 
     +-adf2mp3/
      |
@@ -41,7 +41,7 @@ To print basic help and tool info, run:
      |
      +-adf2mp3.vcxproj & friends => Visual Studio project files...
 
-##License:
+## License:
 
 This code is public domain. I claim no copyrights over it.
 No warranty is offered or implied; use it at your own risk.
@@ -52,21 +52,21 @@ No warranty is offered or implied; use it at your own risk.
 
 ### Grand Theft Auto - Vice City (Steam Version)
 
-+-C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto Vice City\Audio
- +-EMOTION.adf
- |
- +-ESPANT.adf
- |
- +-FEVER.adf
- |
- +-FLASH.adf
- |
- +-KCHAT.adf
- |
- +-VCPR.adf
- |
- +-VROCK.adf
- |
- +-WAVE.adf
- |
- +WILD.adf
+    +-C:\Program Files (x86)\Steam\steamapps\common\Grand Theft Auto Vice City\Audio
+     +-EMOTION.adf
+     |
+     +-ESPANT.adf
+     |
+     +-FEVER.adf
+     |
+     +-FLASH.adf
+     |
+     +-KCHAT.adf
+     |
+     +-VCPR.adf
+     |
+     +-VROCK.adf
+     |
+     +-WAVE.adf
+     |
+     +WILD.adf
